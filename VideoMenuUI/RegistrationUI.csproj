@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VideoMenuBLL\VideoMenuBLL.csproj" />
+    <ProjectReference Include="..\VideoMenuBLL\RegistrationBLL.csproj" />
   </ItemGroup>
 
 </Project>

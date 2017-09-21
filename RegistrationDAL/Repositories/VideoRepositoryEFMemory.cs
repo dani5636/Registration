@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using VideoMenuDAL.Context;
-using VideoMenuDAL.Entities;
+using RegistrationDAL.Context;
+using RegistrationDAL.Entities;
 
-namespace VideoMenuDAL
+namespace RegistrationDAL.Repositories
 {
     class VideoRepositoryEFMemory : IVideoRepository
     {

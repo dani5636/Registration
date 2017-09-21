@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VideoMenuBLL.BusinessObjects;
+using RegistrationBLL.BusinessObjects;
 
-namespace VideoMenuBLL
+namespace RegistrationBLL
 {
    public interface IVideoService
     {

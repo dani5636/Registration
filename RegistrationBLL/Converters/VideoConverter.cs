@@ -1,7 +1,7 @@
-﻿using VideoMenuBLL.BusinessObjects;
-using VideoMenuDAL.Entities;
+﻿using RegistrationBLL.BusinessObjects;
+using RegistrationDAL.Entities;
 
-namespace VideoMenuBLL.Converters
+namespace RegistrationBLL.Converters
 {
     class VideoConverter
     {

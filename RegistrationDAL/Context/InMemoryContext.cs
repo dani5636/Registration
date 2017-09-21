@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VideoMenuDAL.Entities;
+using RegistrationDAL.Entities;
 
-namespace VideoMenuDAL.Context
+namespace RegistrationDAL.Context
 {
     class InMemoryContext : DbContext
     {
@@ -14,6 +14,5 @@ namespace VideoMenuDAL.Context
 
         }
         public DbSet<Video> Videos { get; set; }
-        public DbSet<Genre> Genres { get; set; }
     }
 }

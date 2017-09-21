@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VideoMenuDAL.Repositories;
-using VideoMenuDAL.UOW;
+using RegistrationDAL.Repositories;
+using RegistrationDAL.UOW;
 
-namespace VideoMenuDAL
+namespace RegistrationDAL
 {
     public class DALFacade
     {

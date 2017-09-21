@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VideoMenuDAL.Context;
-using VideoMenuDAL.Repositories;
-
-namespace VideoMenuDAL.UOW
+using RegistrationDAL.Context;
+namespace RegistrationDAL.UOW
 {
     class UnitOfWorkMem : IUnitOfWork
     {
         private InMemoryContext context;
         public IVideoRepository VideoRepository { get; internal set; }
-        public IGenreRepository GenreRepository { get; internal set; }
         public UnitOfWorkMem()
         {
             context = new InMemoryContext();
             VideoRepository = new VideoRepositoryEFMemory(context);
-            GenreRepository = new GenreRepositoryInEF(context);
         }
 
         public int Complete()

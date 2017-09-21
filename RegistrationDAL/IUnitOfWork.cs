@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace VideoMenuDAL
+namespace RegistrationDAL
 {
     public interface IUnitOfWork : IDisposable
     {
         IVideoRepository VideoRepository { get; }
-        IGenreRepository GenreRepository { get; }
         int Complete();
     }
 }

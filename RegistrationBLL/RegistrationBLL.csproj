@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VideoMenuDAL\RegistrationDAL.csproj" />
+    <ProjectReference Include="..\RegistrationDAL\RegistrationDAL.csproj" />
   </ItemGroup>
 
 </Project>

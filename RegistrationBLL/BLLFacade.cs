@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using VideoMenuBLL.Services;
-using VideoMenuDAL;
+using RegistrationBLL.Services;
+using RegistrationDAL;
 
-namespace VideoMenuBLL
+namespace RegistrationBLL
 {
     public class BLLFacade
     {

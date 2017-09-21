@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VideoMenuBLL.BusinessObjects
+namespace RegistrationBLL.BusinessObjects
 {
     public class VideoBO
     {

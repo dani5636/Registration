@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using VideoMenuBLL.BusinessObjects;
-using VideoMenuBLL.Converters;
-using VideoMenuDAL;
+using RegistrationBLL.BusinessObjects;
+using RegistrationBLL.Converters;
+using RegistrationDAL;
 
-namespace VideoMenuBLL.Services
+namespace RegistrationBLL.Services
 {
     class VideoService : IVideoService
     {

@@ -8,6 +8,7 @@ namespace TestUnitProject
         [Test()]
         public void TestCase()
         {
+            Assert.AreEqual(2, 2);
         }
     }
 }

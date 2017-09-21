@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using RegistrationDAL.Context;
+using RegistrationDAL.Repositories;
+
 namespace RegistrationDAL.UOW
 {
     class UnitOfWorkMem : IUnitOfWork

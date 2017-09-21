@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationDAL", "Registra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistrationBLL", "RegistrationBLL\RegistrationBLL.csproj", "{D6019720-6EF2-484E-B213-D10D26078D22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{E3C63F85-9093-416E-AEB2-4A67D1EC36B5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{D6019720-6EF2-484E-B213-D10D26078D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6019720-6EF2-484E-B213-D10D26078D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6019720-6EF2-484E-B213-D10D26078D22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3C63F85-9093-416E-AEB2-4A67D1EC36B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3C63F85-9093-416E-AEB2-4A67D1EC36B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3C63F85-9093-416E-AEB2-4A67D1EC36B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3C63F85-9093-416E-AEB2-4A67D1EC36B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
